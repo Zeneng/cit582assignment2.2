@@ -11,7 +11,7 @@ def hash_preimage(target_string):
         print( "Input should be a string of bits" )
         return
     
-    len(target_string) = k
+    k = len(target_string)
     if k > 256:
         print( "Input is too long" )
         return
